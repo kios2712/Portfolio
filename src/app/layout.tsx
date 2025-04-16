@@ -25,12 +25,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased px-12`}>
-        {children}
+      <body className={`${geistSans.variable} ${geistMono.variable}  bg-white antialiased px-4 xl:px-52`}>
         <header>
-          <Navbar></Navbar>
+          <Navbar></Navbar>   
         </header>
-        <main ></main>
+        <div className="flex flex-col items-center mt-20">{children}</div>
+        
       </body>
     </html>
   );
