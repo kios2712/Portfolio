@@ -9,7 +9,7 @@ export default function Home() {
           alt="logo"
           width={170}
           height={20}
-          className="p-2rounded-s-lg grayscale"
+          className="p-2rounded-s-lg grayscale rounded-xl"
         />
         <div className="flex flex-col items-center justify-center flex-1 text-center">
           <p className="mb-2 text-gray-600 font-roboto dark:text-gray-400">
@@ -21,7 +21,6 @@ export default function Home() {
           </h1>
         </div>
       </div>
-
     </div>
   );
 }

@@ -25,13 +25,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}  bg-white antialiased px-4 xl:px-52`}>
+    <body className={`${geistSans.variable} ${geistMono.variable} bg-white antialiased`}>
+      <div className="px-4 xl:px-52">
         <header>
-          <Navbar></Navbar>   
+          <Navbar />
         </header>
-        <div className="flex flex-col items-center mt-20">{children}</div>
-        
-      </body>
-    </html>
+        <main className="flex flex-col items-center mt-20">
+          {children}
+        </main>
+      </div>
+    </body>
+  </html>
   );
 }
