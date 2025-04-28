@@ -36,8 +36,8 @@ export default function DrawerMenu() {
 
       <DrawerContent>
         <DrawerTitle className="p-4 text-center">Menu</DrawerTitle>
-        <Separator />
 
+        <Separator />
         <nav>
           <ul className="flex flex-col items-center gap-6 p-4">
             {navItems.map((item) => (

@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -10,7 +10,7 @@ const navItems = [
   { href: "/about", label: "About" },
   { href: "/projects", label: "Projects" },
   { href: "/skills", label: "Skills" },
-  { href: "/contact", label: "Contact" }
+  { href: "/contact", label: "Contact" },
 ];
 
 export default function Navbar() {
@@ -28,7 +28,7 @@ export default function Navbar() {
         <div className="absolute left-4">
           <DrawerMenu />
         </div>
-        
+
         {/* Título centrado */}
         <h1 className="text-sm text-black font-[700] font-roboto">
           Kiosma Rincones
@@ -41,7 +41,7 @@ export default function Navbar() {
         <h1 className="text-sm text-black font-[700] font-roboto">
           Kiosma Rincones
         </h1>
-        
+
         {/* Menú de navegación (centro) */}
         <nav>
           <ul className="flex gap-6">
@@ -59,7 +59,7 @@ export default function Navbar() {
             ))}
           </ul>
         </nav>
-        
+
         {/* Botón (derecha) */}
         <Button className="text-sm font-[100] font-roboto">Download CV</Button>
       </div>

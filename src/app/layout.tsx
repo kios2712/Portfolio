@@ -30,7 +30,7 @@ export default function RootLayout({
         <header>
           <Navbar />
         </header>
-        <main className="flex flex-col items-center mt-20">
+        <main className="flex flex-col items-center mt-12">
           {children}
         </main>
       </div>
