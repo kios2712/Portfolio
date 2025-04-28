@@ -32,7 +32,7 @@ export default function About() {
       <div className="col-span-12 p-4 md:col-span-2 lg:col-span-6">
         <h2>About me</h2>
         <p className="p-3 mb-5 text-justify">
-          Hello, I'm Kiosma Rincones, a computer science engineer from Colombia,
+          Hello, I m Kiosma Rincones, a computer science engineer from Colombia,
           specialized in web development. I master technologies such as HTML,
           CSS, JavaScript, Next.js, Tailwind CSS, Shadcn, GitHub, Atomic Design,
           React, and Node.js. I focus on creating modern digital experiences
